@@ -12,12 +12,13 @@ color: #69CBBB;
 text-decoration: none;
 }
 
-h1 {
-  padding: 20px 0px 10px 0px;
-}
 .portfolio-item {
   margin-top: 60px;
   padding: 40px;
   background-color: #f7f7f7;
+}
+
+h1 {
+  padding: 20px 0px 10px 0px;
 }
 
