@@ -4,16 +4,34 @@
     <meta charset="utf-8">
     <title>Art 75 portfolio</title>
     <link rel="stylesheet" type="text/css" href="main.css">
+    <style>
+    .column {
+      float: left;
+      width: 48%;
+      padding: 10px;
+    }
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    </style>
   </head>
   <body>
-   <h1>Masao's Art 75 portfolio</h1>
-   <div class="portfolio-item">
-     <img src="images/cat face.png" alt="cat face" height="600" width="490">
-    <br>
-    <h2><a href="statement.html">artist statement</a></h2>
-    <h2><a href="project.html">video contents</a></h2>
+ <h1>Masao's Art 75 portfolio</h1>
 
-   </div>
-    <div class="portfolio-item">
-  </body>
+ <div class="row">
+  <div class="column">
+    <img src="images/cat face.png" alt="cat face" height="600" width="500" style=width="70%">
+  </div>
+  <div class="column">
+    <img src="images/cat face.png" alt="cat face" height="600" width="500">
+  </div>
+ </div>
+ <br>
+
+    <h2><a href="statement.html">artist statement</a></h2>
+    <h2><a href="project.html">video and net art content</a></h2>
+</body>
 </html>
